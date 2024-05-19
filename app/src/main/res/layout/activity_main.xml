@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.nuyun.emoar.AROverlayView
+        android:id="@+id/arOverlayView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="10dp"/>
+
+    <Button
+        android:id="@+id/switchCameraButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch Camera"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="16dp" />
+</FrameLayout>
